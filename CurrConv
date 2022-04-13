@@ -1,0 +1,11 @@
+from locale import currency
+import math
+
+
+x = float(input("enter your dollar value:"))
+Dollar = float(x * 414.59) #Dollar to Naira
+print ("The value of", '$',x, "in Naira is = ", '#',Dollar)
+
+y = float(input("enter your GBP value:"))
+GBP = float(y * 539.13) #Pounds to Naira
+print ("The value of", '£',y, "in Naira is = ", '#',GBP)
