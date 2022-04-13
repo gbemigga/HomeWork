@@ -1,0 +1,12 @@
+from pytz import timezone
+from datetime import datetime
+from datetime import timedelta
+
+
+time_format = '%H:%S'
+n = 8
+CaliforniaTime = datetime.now(timezone('US/Pacific'))
+naijatime = CaliforniaTime + timedelta(hours=n)
+
+
+print(naijatime)

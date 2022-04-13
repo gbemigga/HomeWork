@@ -6,7 +6,7 @@ x = int(input("enter a number:"))
 square: int = int(x * x) #Square of X
 print ("The square is = ", square)
 
-squareroot  = (math.sqrt(x))
+squareroot  = (math.sqrt(x)) #Square root of x
 print ("The squareroot is = ", squareroot)
 
 cuberoot  = (x ** (1. / 3))  #Cuberoot of X
@@ -16,6 +16,6 @@ xdiv = (x / x) # Variable divided by variable
 print ("The variable divided by itself is:" ,xdiv)
 
 
-y= int(input("number raised to power:"))
+y= int(input("Output raised to power:"))
 xraisedi = x ** y
 print ( x, "raised to power", y, "is:" ,xraisedi)

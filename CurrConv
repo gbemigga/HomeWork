@@ -1,6 +1,3 @@
-from locale import currency
-import math
-
 
 x = float(input("enter your dollar value:"))
 Dollar = float(x * 414.59) #Dollar to Naira
